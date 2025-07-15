@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/amiramii/Time-Tracking-dashboard.git)
+- Live Site URL: [live site URL](https://amiramii.github.io/Time-Tracking-dashboard/)
 
 ## My process
 
