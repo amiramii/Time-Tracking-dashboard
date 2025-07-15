@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding: 1rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./main.js"></script>
+</head>
+<body>
+  <main class="grid-container">
+    <section class="user grid-item1" id="user">
+      <section class="user-info">
+        <img src="./images/image-jeremy.png" alt="user-pfp" class="user-pfp">
+        <div>
+          <span>
+            Report for
+          </span>
+          <h1>
+            Jeremy Robson
+          </h1>
+        </div>
+      </section>
+      <section class="time-period">
+        <span tabindex="0">
+          Daily
+        </span>
+        <span tabindex="0">
+          Weekly
+        </span>
+        <span tabindex="0">
+          Monthly
+        </span>
+      </section>
+    </section>
+    <section class="grid-item work">
+      <div class="work-bg">
+        <img src="./images/icon-work.svg" alt="">
+      </div>
+      <div class="work-card card">
+        <span class="card-activity">
+          Work
+        </span>
+        <button class="modify-btn" aria-label="modify button">
+          <img src="./images/icon-ellipsis.svg" alt="">
+        </button>
+        <span class="previous-hours">
+          Previous - 7hrs <!-- daily -->
+        </span>
+        <h2 class="hours">
+          5hrs<!-- daily -->
+        </h2>
+      </div>
+    </section>
+    <section class="grid-item play">
+      <div class="play-bg">
+        <img src="./images/icon-play.svg" alt="">
+      </div>
+      <div class="play-card card">
+        <span class="card-activity">
+          play
+        </span>
+        <button class="modify-btn" aria-label="modify button">
+          <img src="./images/icon-ellipsis.svg" alt="">
+        </button>
+        <span class="previous-hours">
+          Previous - 2hrs <!-- daily -->
+        </span>
+        <h2 class="hours">
+          1hr <!-- daily -->
+        </h2>
+      </div>
+    </section>
+    <section class="grid-item study">
+        <div>
+          <img src="./images/icon-study.svg" alt="">
+        </div>
+        <div class="study-card card">
+          <span class="card-activity">
+            Study
+          </span>
+          <button class="modify-btn" aria-label="modify button">
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </button>
+          <span class="previous-hours">
+            Previous - 1hr <!-- daily -->
+          </span>
+          <h2 class="hours">
+            0hrs <!-- daily -->
+          </h2>
+        </div>
+    </section>
+    <section class="grid-item exercise">
+      <div class="play-bg">
+        <img src="./images/icon-exercise.svg" alt="">
+      </div>
+      <div class="exercise-card card">
+        <span class="card-activity">
+          Exercise
+        </span>
+        <button class="modify-btn" aria-label="modify button">
+          <img src="./images/icon-ellipsis.svg" alt="">
+        </button>
+        <span class="previous-hours">
+          Previous - 1hr <!-- daily -->
+        </span>
+        <h2 class="hours">
+          1hr <!-- daily -->
+        </h2>
+      </div>
+    </section>
+    <section class="grid-item social">
+      <div class="social-bg">
+        <img src="./images/icon-social.svg" alt="">
+      </div>
+      <div class="social-card card">
+        <span class="card-activity">
+          Social
+        </span>
+        <button class="modify-btn" aria-label="modify button">
+          <img src="./images/icon-ellipsis.svg" alt="">
+        </button>
+        <span class="previous-hours">
+          Previous - 3hrs <!-- daily -->
+        </span>
+        <h2 class="hours">
+          1hr <!-- daily -->
+        </h2>
+      </div>
+    </section>
+    <section class="grid-item self-care">
+      <div class="self-care-bg">
+        <img src="./images/icon-self-care.svg" alt="">
+      </div>
+      <div class="self-care-card card">
+        <span class="card-activity">
+          Self Care
+        </span>
+        <button class="modify-btn" aria-label="modify button">
+          <img src="./images/icon-ellipsis.svg" alt="">
+        </button>
+        <span class="previous-hours">
+          Previous - 1hr <!-- daily -->
+        </span>
+        <h2 class="hours">
+          0hrs <!-- daily -->
+        </h2>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/amiramii">amiramii</a>.
+  </footer>
+</body>
+</html>
+  
